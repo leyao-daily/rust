@@ -14,7 +14,9 @@ fn main() {
     let five_hundred = tup.0;
     let six_point_four = tup.1;
     let one = tup.2;
-
+    println!("The value of first is: {}", five_hundred);
+    println!("The value of second is: {}", six_point_four);
+    println!("The value of third is: {}", one);
     //Array and accession
     let arr: [i32; 5] = [1, 2, 3, 4, 5];
     let first = arr[0];
