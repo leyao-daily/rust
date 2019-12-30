@@ -9,7 +9,7 @@ fn main() {
 
     //Tuple and destructuring
     let tup: (i32, f64, u8) = (500, 6.4, 1);
-    let (a, b, c) = tup;
+    let (_a, b, _c) = tup;
     println!("The value of b is: {}", b);
     let five_hundred = tup.0;
     let six_point_four = tup.1;
@@ -21,4 +21,6 @@ fn main() {
     let arr: [i32; 5] = [1, 2, 3, 4, 5];
     let first = arr[0];
     let second = arr[1];
+    println!("The value of first in arr is: {}", first);
+    println!("The value of second in arr is: {}", second);
 }
