@@ -8,9 +8,11 @@ fn main() {
     println!("The value of x is: {}", cat);
 
     //Tuple and destructuring
-    let tup: (i32, f64, u8) = (500, 6.4, 1);
-    let (_a, b, _c) = tup;
+    let tup: (i32, f64, u8) = (500, 6.42, 12);
+    let (a, b, c) = tup;
+    println!("The value of a is: {}", a);
     println!("The value of b is: {}", b);
+    println!("The value of c is: {}", c);
     let five_hundred = tup.0;
     let six_point_four = tup.1;
     let one = tup.2;
