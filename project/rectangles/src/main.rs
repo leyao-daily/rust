@@ -21,10 +21,10 @@ impl Rectangle {
 }
 
 fn main() {
-    let rect1 = Rectangle { width: 30, height: 50 };
-    let rect2 = Rectangle { width: 10, height: 40 };
-    let rect3 = Rectangle { width: 60, height: 45 };
-    let rect4 = Rectangle::square(35);
+    let rect1 = Rectangle { width: 300, height: 500 };
+    let rect2 = Rectangle { width: 100, height: 400 };
+    let rect3 = Rectangle { width: 600, height: 450 };
+    let rect4 = Rectangle::square(350);
 
     println!("rect1 is {:?}", rect1);
     println!("rect1 is {:#?}", rect1);
